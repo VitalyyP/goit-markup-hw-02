@@ -1,0 +1,31 @@
+/*
+#2196F3 
+
+ */
+
+.page {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+}
+
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+.firstpart-logo {
+  color: #2196f3;
+}
+.lastpart-logo {
+  color: #000000;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
