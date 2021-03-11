@@ -2,8 +2,12 @@
 #2196F3 
 
  */
+:root {
+  --main-text-color: #757575;
+  --
+}
 
-.page {
+body {
   background-color: #ffffff;
   color: #212121;
 }
@@ -17,7 +21,7 @@
 
 .link {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .firstpart-logo {
   color: #2196f3;
