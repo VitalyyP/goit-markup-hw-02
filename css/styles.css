@@ -1,35 +1,115 @@
-/*
-#2196F3 
-
- */
 :root {
   --main-text-color: #757575;
-  --
+  --main-bg-color: #e5e5e5;
+  --accent-color: #2196f3;
+  --lite-bg-color: #ffffff;
+  --dark-bg-color: #2f303a;
 }
 
 body {
-  background-color: #ffffff;
-  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* background-color: var(--main-bg-color); */
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
 }
 
-.list {
-  list-style: none;
+address {
+  font-style: normal;
 }
 
-.logo {
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px;
+  overflow: hidden;
 }
 
 .link {
   text-decoration: none;
   color: inherit;
 }
-.firstpart-logo {
-  color: #2196f3;
+
+.link:hover,
+.link:focus,
+.firstpart-logo
+ {
+  color: var(--accent-color);
 }
+
+.list {
+  list-style: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--lite-bg-color);
+  background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus, {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+}
+
+.page-title {
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lite-bg-color);
+}
+
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .lastpart-logo {
   color: #000000;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
+
+.site-nav {
+  color: #212121;
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+.lite-bg {
+  background-color: var(--lite-bg-color);
+}
+
+.dark-bg {
+  background-color: var(--dark-bg-color);
+}
+
+.footer .lastpart-logo {
+  color: var(--lite-bg-color);
 }
